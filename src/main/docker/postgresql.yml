@@ -1,0 +1,11 @@
+version: '2'
+services:
+    diagnosys-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/diagnosys/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=diagnosys
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

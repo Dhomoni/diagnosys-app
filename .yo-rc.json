@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.dhomoni.diagnosys",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "microservice",
+    "baseName": "diagnosys",
+    "packageName": "com.dhomoni.diagnosys",
+    "packageFolder": "com/dhomoni/diagnosys",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTg1OTQ1M2ZiZmNmZjhhZjRkY2VmNjQ4N2E1OGQ5ZjZkZWU0OWE4OWU0YjYwMDFkMGIzMTBiMDZjZDExMWExMDEzN2M3MmVlMzA0MTM2NDJhOWZkY2I3MjNjOTlmM2Y0NjE5ZmIyZTIzNjRkYTAwZTc4NWEzNzkzYjI2MjYwNzI=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "bn"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
