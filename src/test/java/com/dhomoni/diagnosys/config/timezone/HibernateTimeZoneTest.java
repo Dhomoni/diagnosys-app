@@ -3,6 +3,8 @@ package com.dhomoni.diagnosys.config.timezone;
 import com.dhomoni.diagnosys.DiagnosysApp;
 import com.dhomoni.diagnosys.repository.timezone.DateTimeWrapper;
 import com.dhomoni.diagnosys.repository.timezone.DateTimeWrapperRepository;
+import com.dhomoni.diagnosys.config.SecurityBeanOverrideConfiguration;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +25,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * Unit tests for the UTC Hibernate configuration.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = DiagnosysApp.class)
+@SpringBootTest(classes = {SecurityBeanOverrideConfiguration.class, DiagnosysApp.class})
 public class HibernateTimeZoneTest {
 
     @Autowired
