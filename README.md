@@ -1,6 +1,5 @@
 # diagnosys
 [![Build Status][travis-image]][travis-url]
-
 [![Sonar Status][sonar-image]][sonar-url]
 
 [travis-image]: https://travis-ci.com/Dhomoni/diagnosys-app.svg?branch=master
