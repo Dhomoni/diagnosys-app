@@ -1,6 +1,13 @@
 # diagnosys
+[![Build Status][travis-image]][travis-url]
 
-https://sonarcloud.io/api/project_badges/measure?project=com.dhomoni.diagnosys%3Adiagnosys&metric=alert_status
+[![Sonar Status][sonar-image]][sonar-url]
+
+[travis-image]: https://travis-ci.com/Dhomoni/diagnosys-app.svg?branch=master
+[travis-url]: https://travis-ci.com/Dhomoni/diagnosys-app
+
+[sonar-image]: https://sonarcloud.io/api/project_badges/measure?project=com.dhomoni.diagnosys%3Adiagnosys&metric=alert_status
+[sonar-url]: https://sonarcloud.io/api/project_badges/measure?project=com.dhomoni.diagnosys%3Adiagnosys&metric=alert_status
 
 This application was generated using JHipster 5.7.2, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.7.2](https://www.jhipster.tech/documentation-archive/v5.7.2).
 
