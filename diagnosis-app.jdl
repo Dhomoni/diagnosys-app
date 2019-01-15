@@ -147,6 +147,12 @@ enum MedicineType {
 	ORAL_SALINE
 }
 
+
+dto * with mapstruct
+service * with serviceClass
+filter *
+paginate * with infinite-scroll
+
 dto * with mapstruct
 service * with serviceClass
 filter *
